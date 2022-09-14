@@ -36,8 +36,8 @@
      <li><a href="#">About</a></li>
      <li> <a href="#">Our Impact</a></li>
 
-     <li><a href="../php/register.php">Contact Us</a></li>
-      <li><a href="../php/login.php">Login</a></li>
+     <li><a href="php/register.php">Contact Us</a></li>
+      <li><a href="php/login.php">Login</a></li>
 
         </ul></div></nav></div>
 
@@ -52,11 +52,11 @@
           </div>
           <div class="footer">
              
-               <a href="../php/index.php"> <img class="support" src="images2/support.png"></a>
+               <a href="php/index.php"> <img class="support" src="images2/support.png"></a>
             
-                  <a href="../php/ourmission.php"><img class="mission" src="images2/mission.png"></a>
+                  <a href="php/ourmission.php"><img class="mission" src="images2/mission.png"></a>
            
-                  <a href="../php/donate.php"> <img class="donate" src="images2/donate.png">
+                  <a href="php/donate.php"> <img class="donate" src="images2/donate.png">
                  </a>
               </div>
 
