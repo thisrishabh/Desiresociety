@@ -1,0 +1,318 @@
+
+.container3{
+    width: 100%;
+    height: 100vh;
+    z-index: -20;
+    
+  
+}
+.container2{
+    width: 100%;
+    height: 100vh;
+    z-index: -20;
+    background-color: grey;
+    position: absolute;
+  
+}
+ ul{
+    list-style: none;
+    display: flex;
+    padding: 18px;
+    background-size: 100% 70px;
+    background: linear-gradient(-45deg, #ff5959, #ff4040,#ff8033,#d74177);
+    border-radius: 40px;
+    box-shadow: 3px 3px 20px #ff3352;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+ }
+ @keyframes myGradient{
+    0%{background-position: 0% 50%;}
+ 
+   50%{background-position:100% 50%;}
+   100%{background-position: 0% 50%;}
+ }
+  li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 45px 45px;
+    font-family: Verdana;
+    font-weight: lighter;
+    font-size: 25px;
+    letter-spacing: 1px;
+    opacity: 0.9;
+  } 
+.navbar{
+    width: 100%;
+    height: 70px;
+    position: absolute;
+   /* transform: translate(-50%,-50%); */
+    box-sizing: border-box;
+    top: 0px;
+    left: 0px;  
+}
+@keyframes myFlash{
+    0%{opacity: 1; text-shadow: transparent;}
+    50%{opacity: .1;}
+    100%{opacity: 1; text-shadow: 2px, 2px, 20px, #fff;}
+}
+.flash-Gif{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background: #ff5959;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 15%;
+        left: 10%;
+        box-shadow: 2px, 2px, 20px, #d4267d;
+        animation: 1.6s myFlash linear infinite;
+}
+ @keyframes myFlash {
+    0%{opacity: 1;}
+    50%{opacity: .1;}
+    100%{opacity: 1;}
+ }
+ nav {
+     transition: 3s;
+     animation: 3s myAnimation ease linear;
+ }
+   @keyframes myAnimation{
+    0%{opacity: o;}
+    100%{opacity: 1;}
+   }
+   .nav-type{
+    animation: 3s myWorld ease linear;
+   }
+   @keyframes myWorld {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+   }
+   @media(max-width: 767px)
+   .flash-Gif{
+    display: none;
+   }
+   .navigation{
+    width: 100%;
+    position: absolute;
+    /*transform: translate(-50%, -50%);*/
+    top: 0px;
+    left: 0px;
+   }
+   ul{
+    padding: 15px 0;}
+    .active {
+        transition: 1s;
+    }
+    .active1 {
+transition: 1s;
+    }
+    .active2 {
+        transform: 1s;
+    }
+    .active3 {
+        transition: 1s;
+    }
+    li a {
+padding: 33px;
+font-size: 25px;
+font-weight: lighter;}
+ 
+ .active:hover{
+    color: #fff;
+    animation: 1.5smyFlash linear infinite;
+    text-shadow: 2px, 2px,30px #fff;
+    transition: 2s;
+ }
+ .active1:hover{
+    color: #fff;
+    animation: 1.5smyFlash linear infinite;
+    text-shadow: 2px, 2px,30px #fff;
+    transition: 2s;
+ }
+ .active2:hover{
+    color: #fff;
+    animation: 1.5smyFlash linear infinite;
+    text-shadow: 2px, 2px,30px #fff;
+    transition: 2s;
+ }
+ .active3:hover{
+    color: #fff;
+    animation: 1.5smyFlash linear infinite;
+    text-shadow: 2px, 2px,30px #fff;
+    transition: 2s;
+ }
+  .radial-cycle{
+    width: 100%;
+    height: 70%;
+    border-radius: 50%;
+    background: tomato;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 70%;
+    left: 50%;
+    box-shadow: 2px, 2px, 20px, #ff3352;
+  }
+  .text-content-fluid{
+    display: flex;
+    position: absolute;
+    transform:  translate(-50%, -50%);
+    top: 53%;
+    left: 50%;
+    letter-spacing: 25px;
+    font-size: 50px;
+    font-family: verdana;
+  }
+.link{
+    float: left;
+}
+.n1 #navbtn{
+    width: 30px;
+}
+.n1 button{
+    float: right;
+}
+.img1{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 30%;
+    height: 100vh;
+    z-index: -16;
+    animation-name: img1;
+    animation-duration: 2s;
+    
+}
+.img2{
+    position: absolute;
+    top: 0px;
+    right: 30%;
+    width: 40%;
+    height: 100vh;
+    z-index: -15;
+    animation-name: img2;
+    animation-duration: 3s;
+}
+@keyframes img1 {
+    0%{ width: 10px;}
+    
+    100%{ width: 30%;}
+    
+    
+}
+@keyframes img2 {
+    0%{ width: 10px;}
+    
+    100%{ width: 40%;}
+    
+}
+#heading{
+    width: 30%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0%;
+    color: white;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.203);
+    overflow: hidden;
+    animation-name: heading;
+    animation-duration: 3s;
+    display: block;
+   
+}
+
+@keyframes heading {
+    from{ height: 0%; }
+    to { height: 100%; }
+    
+}
+#heading h1{
+    margin-top: 50%;
+    font-size: 6rem;
+}
+#heading p{
+    font-size: 4rem;
+}
+
+
+
+
+
+
+.hero{
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(161, 228, 205);
+    padding: 100px;
+  
+}
+
+.hero h1{
+    font-size: 40px;
+}
+.hero p{
+    font-size: 30px;
+}
+@keyframes hero{
+    from{
+       color: rgb(10, 0, 53);
+        ;
+    }
+    to {
+        color: #000080;
+    }
+}
+
+#para1{
+    animation-name: hero;
+     margin-top: 10px;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+    animation-duration: 5s
+}
+
+#para2{
+    width: 80%;
+    margin-top: 0px;
+    animation-name: hero1;
+    
+    animation-delay: 3s;
+    animation-duration: 5s
+}
+@keyframes hero1{
+    from{
+        color: transparent;
+       width: 40%;
+    }
+    to {
+        color: rgb(10, 0, 53);
+        width: 80%;
+    }
+}
+
+.footer{
+     background: #333;
+
+}
+.footer img{
+    height: 100px;
+    width: 100px;
+    margin-left: 250px;
+   margin-top: 30px;
+   margin-bottom: 30px;
+}
+.footer-b{
+    background: black;
+    color: white;
+
+}
+.footer-b p{
+    margin-left: 38%;
+
+}
+.footer-b div{
+    margin-left: 38%;
+}
